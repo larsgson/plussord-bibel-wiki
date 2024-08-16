@@ -492,15 +492,13 @@ export const plussOrdObj = {
     } else {
     }
   }),
-  title: "John",
-  description: "John.Descr",
+  title: "Pluss Ord",
   uniqueID: "PlussOrd.TVInter",
   beginDate: "2024-08-12",
   image: {
     origin: "ImgId",
     filename: "John.ImgId",
   },
-  language: "eng",
+  language: "eng", // To To: change this to Norwegian
   mediaType: "vid",
-  fb: true,
 };
