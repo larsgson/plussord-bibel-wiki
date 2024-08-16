@@ -195,11 +195,14 @@ const PlanEpisode = (props) => {
           <Typography
             sx={{pl: 0.5, fontWeight: 400,fontSize: '90%'}}
           >
-            {t(curSerie.title) + ` ${curEp?.begin?.ch},${curEp?.begin?.v}-${curEp?.end?.v}`}
+            {curSerie.title}
           </Typography>
         </Grid>
         {!isPlaying && (
-          <Grid item>
+          <Grid 
+            item
+            sx={{marginLeft: 6}}
+          >
             <IconButton
               sx={{color: 'darkblue',backgroundColor: 'darkgrey'}}
               onClick={() => handleClickPlay(episodeNumber,curSerie,curEp)}>
